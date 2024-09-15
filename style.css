@@ -41,6 +41,12 @@
     width: 100%;
 }
 
+.top-tabs > * {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1em;
+}
+
 .content {
     display: grid;
     grid-template-rows: 150px 1fr;
