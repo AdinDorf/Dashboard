@@ -1,0 +1,30 @@
+/* blue : 111d4a */
+/* lavendar : cfcfea */
+/* green: f0ffce */
+*{
+    border-style: solid;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.container .sidebar {
+    height: 100vh;
+    background-color: #cfcfea;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+
+.top-header {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;   
+}
