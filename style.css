@@ -2,7 +2,7 @@
 /* lavendar : cfcfea */
 /* green: f0ffce */
 *{
-    border-style: solid;
+    /* border-style: solid; */
 }
 
 ul {
@@ -12,6 +12,7 @@ ul {
 .container {
     display:grid;
     grid-template-columns: 1fr 3fr;
+    
 }
 
 .container .sidebar {
@@ -22,9 +23,39 @@ ul {
     flex-direction: column;
     justify-content: flex-start;
     gap: 2rem;
+
 }
 
 .top-header {
     display: grid;
-    grid-template: 1fr 1fr / 1fr 1fr;   
+    grid-template: 50px 70px / 1fr 1fr;   
+    padding: 1em;
+
 }
+
+.search-bar, .profile-bar, .functions, .profile-hero {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.profile-bar {
+    justify-content: flex-end;
+    gap: 2em;
+    padding: 1em;
+    
+}
+
+
+.functions {
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.content {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    
+}
+
+
