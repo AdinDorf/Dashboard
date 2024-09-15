@@ -13,6 +13,7 @@ ul {
 .container {
     display:grid;
     grid-template-columns: 1fr 3fr;
+    gap: 16px;
 }
 
 .sidebar {
@@ -26,7 +27,11 @@ ul {
     font-size: large;
     font-weight: bold;
 
+    box-shadow: 5px 5px 5px #d6d6d6;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     gap: 2em;
+
 }
 
 .sidebar .logo {
@@ -42,6 +47,7 @@ ul {
 .content {
     display: grid;
     grid-template-rows: 150px 1fr;
+    gap: 10px;
 }
 
 .top-header {
