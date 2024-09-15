@@ -2,7 +2,7 @@
 /* lavendar : cfcfea */
 /* green: f0ffce */
 *{
-    /* border-style: solid; */
+    border-style: solid;
 }
 
 ul {
@@ -12,25 +12,28 @@ ul {
 .container {
     display:grid;
     grid-template-columns: 1fr 3fr;
-    
 }
 
-.container .sidebar {
+.sidebar {
     height: 100vh;
     background-color: #cfcfea;
-
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     gap: 2rem;
+}
 
+.content {
+    display: grid;
+    grid-template-rows: 150px 1fr;
+    background-color: #f0ffce;
 }
 
 .top-header {
     display: grid;
     grid-template: 50px 70px / 1fr 1fr;   
     padding: 1em;
-
+    background-color: red;
 }
 
 .search-bar, .profile-bar, .functions, .profile-hero {
@@ -46,16 +49,15 @@ ul {
     
 }
 
-
 .functions {
     justify-content: space-around;
     gap: 10px;
 }
 
-.content {
+.board {
     display: grid;
-    grid-template: 1fr 1fr / 1fr 1fr;
     
 }
+
 
 
