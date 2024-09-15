@@ -13,6 +13,7 @@ ul {
 .container {
     display:grid;
     grid-template-columns: 1fr 3fr;
+
 }
 
 .sidebar {
@@ -23,7 +24,9 @@ ul {
     justify-content: flex-start;
     gap: 2rem;
 
+    font-size: large;
     font-weight: bold;
+    
 }
 
 
@@ -94,9 +97,11 @@ ul {
     height: 100%;
     border-radius: 5px;
     border-style: solid;
-    border-width: 1px;
-    border-color: #cfcfea;
-    box-shadow: 5px 5px 1px #cfcfea;
+    border-width: 4px;
+    border-left-width:1.5em;
+    border-color: #a9e7b9;
+    box-shadow: 5px 5px #d6d6d6;
+    padding: 8px;
 }
 
 
