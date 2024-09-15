@@ -6,9 +6,6 @@
     /* border-style: solid; */
 }
 
-ul {
-    list-style: none;
-}
 
 .container {
     display:grid;
