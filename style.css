@@ -2,7 +2,8 @@
 /* lavendar : cfcfea */
 /* green: f0ffce */
 *{
-    border-style: solid;
+    /* border-style: solid; */
+    color: rgb(28, 28, 28);
 }
 
 ul {
@@ -21,19 +22,21 @@ ul {
     flex-direction: column;
     justify-content: flex-start;
     gap: 2rem;
+
+    font-weight: bold;
 }
+
+
 
 .content {
     display: grid;
     grid-template-rows: 150px 1fr;
-    background-color: #f0ffce;
 }
 
 .top-header {
     display: grid;
     grid-template: 50px 70px / 1fr 1fr;   
     padding: 1em;
-    background-color: red;
 }
 
 .search-bar, .profile-bar, .functions, .profile-hero {
@@ -55,9 +58,48 @@ ul {
 }
 
 .board {
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    gap: 8px;
     display: grid;
+    grid-template-columns: 4fr 1fr;
+    height: 100%;
+}
+
+
+.right-sidebar {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.cards {
+    background-color: white;
+    display: grid;
+    overflow: -moz-hidden-unscrollable;
+    gap: 16px;
+    padding: 12px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1em 1fr 1fr 1fr;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.cards .label {
+    grid-column: 1 / 3;
     
 }
+
+.card {
+    height: 100%;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cfcfea;
+    box-shadow: 5px 5px 1px #cfcfea;
+}
+
+
 
 
 
