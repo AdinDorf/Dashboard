@@ -2,14 +2,15 @@
 /* lavendar : cfcfea */
 /* green: f0ffce */
 
-* {
-}
+
 
 :root {
     --purple: #adadd2;
     --green: #a9e7b9;
-    --grey: #f4f4f4;
+    --grey: #e5e5e5;
     --shadow-color: 5px 5px 5px #d6d6d6;
+}
+* {
 }
 
 .container {
@@ -73,13 +74,32 @@
     display: grid;
     grid-template: 50px 70px / 1fr 1fr;   
     padding: 1em;
-    background-color: var(--grey);
+
+    border-style: solid;
+    border-width: 3px;
+    border-color: var(--grey);
+
     border-radius: 5px;
     box-shadow: var(--shadow-color)
 }
 
+.search-bar{
+    display: flex;
+}
+
+.search-bar input {
+    flex: 1;
+    border-style:solid;
+    border-color: black;
+    border-radius: 2em;
+    padding: 2px;
+}
+
 .trending, .announcements {
-    background-color: var(--grey);
+    border-style: solid;
+    border-width: 3px;
+    border-color: var(--grey);
+
     border-radius: 5px;
     box-shadow: var(--shadow-color);
 }
