@@ -10,7 +10,7 @@
 .container {
     display:grid;
     grid-template-columns: 1fr 3fr;
-    gap: 16px;
+    gap: 16px;  
 }
 
 .sidebar {
@@ -39,6 +39,15 @@
     padding: 10px;
     flex: 0;
     width: 100%;
+}
+
+img {
+    color: white;
+    fill:white;
+    stroke:white;
+    background-color: white;
+    color
+    border-style: solid;
 }
 
 .top-tabs > * {
